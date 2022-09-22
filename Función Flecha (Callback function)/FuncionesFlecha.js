@@ -1,11 +1,18 @@
 /*Ejercicio # 1*/
-const edad = [10,8,15,54,21,29,26].filter(persona => persona >= 18);
+const number = [8,5,20,40,9,6,4,2,7];
+const mayor = Math.max(...number);
 
-const permitidos = (callbackFuntion,persona) =>{
-    const Aceptados = callbackFuntion;
-    console.log(Aceptados); 
+const Mayor = (callbackFunction, num) => {
+    n = num;
+    first_m = callbackFunction
+    if (n > first_m) {
+        console.log(`the oldest is ${n}`);
+    }
+    else if(n < first_m){
+        console.log(`the oldest is ${primermayor}`);
+    }
 }
-permitidos('las personas mayores de 18 años que podran votar son: ' + edad); 
+Mayor(mayor, 50);
 /*-----------------------------------------------------------------------------------*/
 
 /*Ejercicio # 2*/
