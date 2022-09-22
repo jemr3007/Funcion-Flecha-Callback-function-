@@ -16,13 +16,16 @@ Mayor(mayor, 50);
 /*-----------------------------------------------------------------------------------*/
 
 /*Ejercicio # 2*/
-const Multiplicar = [15,5,4,52,2,9,52].map(x => x * 2);
+const edad = [10,8,15,54,21,29,26];
+const sumaEdades = edad.reduce((a,item) => {
+ return a = a + item;
+})
 
-const Mul =(callbackFuntion,x) => {
-    const M2 = callbackFuntion;
-    console.log(M2); 
+const average = (callbackFunction, e) => {
+    prom = (callbackFunction / edad.length)
+    console.log("the average is: " + prom);
 }
-Mul("El resultado de multiplicar todos los valores * 2 es: " + Multiplicar); 
+average(sumaEdades, edad);
 /*-----------------------------------------------------------------------------------*/
 
 /*Ejercicio # 3*/
